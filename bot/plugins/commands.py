@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = {file_name}',
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '𝗝𝗼𝗶𝗻 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽', url="https://t.me/MMCINEMACHAKKU"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('𝗠𝘆 𝗗𝗲𝘃', url='https://t.me/cinemaclubcc'),
+        InlineKeyboardButton('𝗝𝗼𝗶𝗻 𝗠𝘆 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 📺', url ='https://t.me/malayali00l')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/Mo_tech_group')
+        InlineKeyboardButton('𝗝𝗼𝗶𝗻 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽 👥', url='https://t.me/MMCINEMACHAKKU')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
